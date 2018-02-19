@@ -12,6 +12,23 @@ http://www.zhihu.com/question/19991026
 http://blog.jobbole.com/51301/
 
 
+## Linear Algebra
+
+「线性代数的本质」合集,可汗学院的老师 制作的
+>https://www.bilibili.com/video/av6731067/
+>https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
+
+
+麻省理工公开课：线性代数
+>http://open.163.com/special/opencourse/daishu.html
+
+<!--- 
+	如果你把线性代数教材刷得滚瓜烂熟了，可以去看看《线性代数应该这样学》这本书。
+	PS：此书不宜充当入门书，但充当线代教材的进阶课本还是不错的。
+
+	
+	https://www.zhihu.com/question/49952850
+-->
 
 ## Geometry
 Geometry
