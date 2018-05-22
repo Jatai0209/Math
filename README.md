@@ -37,8 +37,15 @@ BOOK：
 《线性代数及其应用》
 
 《线性代数应该这样学》
+从泛函的角度阐释了线性代数
+<!---
+	把泛函里面与线性代数最相关的东西拿了出来。对这些内容的学习，是建立在普通的线性代数基础上的。也就是说他就是一个缩减版的泛函。 
+	这本书又是很好的，因为他是线性代数加强版的泛函。 
+	建议看下泛函的基础知识，再看这本书，效果会更好。
+-->
 
-Linear Algebra and Geometry (Igor R. Shafarevich  and Alexey O. Remizov), 该书从几何的角度阐释了线性代数里的很多概念
+《Linear Algebra and Geometry (Igor R. Shafarevich  and Alexey O. Remizov)》
+ 该书从几何的角度阐释了线性代数里的很多概念
  
 其他直觉化理解矩阵参考资料：   
 《理解矩阵》孟岩。【三篇BLOG】   
