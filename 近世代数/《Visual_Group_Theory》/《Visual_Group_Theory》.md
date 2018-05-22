@@ -26,7 +26,7 @@
 
 然后可以转化成下面这张图片：
 
-![](Cayley diagram02.png)
+![](CayleyDiagram02.png)
 
 我们用:N,B,R,RB代表4种操作。蓝线代表水平翻转，红线代表竖直翻转。
 
@@ -48,13 +48,13 @@ RB:竖直翻转后再水平翻转。
 
 
 
-![](Cayley diagram03.png)
+![](CayleyDiagram03.png)
 
 左图是完整版乘法表，行标题和列标题已成为表格本身的一部分，所以可以省略第一行和第一列，变成右图的样子。【能省略的原因还是因为有N存在，并且放在第1个，这里 N其实就是e,单位元】 
 
 其他表格：
 
-![](Cayley diagram04.png)
+![](CayleyDiagram04.png)
 
 我们学到了两个强大的群理论可视化技术：凯莱图将群显示为行动的集合，乘法表将群显示为二元操作。
 
@@ -63,17 +63,17 @@ RB:竖直翻转后再水平翻转。
 
 描述仅具有旋转对称性的对象。
 
-![](Cyclic group01.png)
+![](CyclicGroup01.png)
 
 可以看到如果我们左右翻转的话，就不会对称了，所以这个 螺旋桨 只有 旋转对称。
 
 对应的 cayley diagram 是下图中间那个:
 
-![](Cyclic group02.png)
+![](CyclicGroup02.png)
 
 对应的乘法表格，这个表格叫$C_5$,也可以叫$Z_5$，因为元素都是整数的原因。：
 
-![](Cyclic group03.png)
+![](CyclicGroup03.png)
 
 $C_{12}$ 就像 挂在墙上的时钟一样。同时也像 模12 的计算。
 
@@ -83,7 +83,7 @@ $C_{12}$ 就像 挂在墙上的时钟一样。同时也像 模12 的计算。
 
 #### 5.2 Abelian groups - 阿贝尔群
 
-![](Abelian groups01.png)
+![](AbelianGroups01.png)
 
 左边 就不是 阿贝尔群，右边是 阿贝尔群。右图任一元素 走红色箭头再走蓝色线 = 走蓝色线再走红色箭头。 
 
@@ -99,7 +99,7 @@ $C_{12}$ 就像 挂在墙上的时钟一样。同时也像 模12 的计算。
 
 二面体群 是  正多边形Regular polygon 的对称操作 组成的群，记为 $D_n$。
 
-![](Dihedral groups01.png)
+![](DihedralGroups01.png)
 
 上图是 5个 正多边形。
 
@@ -109,7 +109,7 @@ $D_n$ 群的元素 = 2 × $C_n$群的元素。
 
 对应的 cayley diagram：
 
-![](Dihedral groups02.png)
+![](DihedralGroups02.png)
 
 第1个就是 正三角形。蓝线代表左右翻转，红线代表逆时针旋转120度。
 
@@ -121,7 +121,7 @@ $frf=r^{-1}$， 这个公式眼熟吧，好像 相似矩阵 的定义。
 
 下面我们来观察一下 $D_5$的乘法表格。
 
-![](Dihedral groups03.png)
+![](DihedralGroups03.png)
 
 可以看出下面这些规律：
 
@@ -142,7 +142,7 @@ Permutation groups - 置换群/排列
 
 $S_4=4×3×2×1=24$， 元素个数就是按照 阶乘来计算。下面是 $S_4$的 凯勒图：
 
-![](Permutation groups01.png)
+![](PermutationGroups01.png)
 
 比较巧的是：$S_3$与$D_3$具有相同的凯勒图：元素都是6个。？ 好像不同
 
@@ -272,7 +272,7 @@ Definition 6.9 (index). If $H < G$ then the index of $H$ in $G$, written $[G:H]$
   diagram for B.
   In the middle of Figure 7.2, each of the two nodes of $C_2$ grew taller to contain a copy of a Cayley diagram for $C_4$.
 
-![](The direct product01.png)
+![](TheDirectProduct01.png)
 
 **Figure 7.2. **The construction of a Cayley diagram for the group $C_2×C_4$ , using Cayley diagrams of $C_2$ and $C_4$, as described in Definition 7.1 
 
