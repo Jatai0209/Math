@@ -22,7 +22,7 @@
 
 下面我们拿一个长方形来举例，看看它有哪些对称操作。
 
-![](Cayley diagram01.png)
+![](CayleyDiagram01.png)
 
 然后可以转化成下面这张图片：
 
