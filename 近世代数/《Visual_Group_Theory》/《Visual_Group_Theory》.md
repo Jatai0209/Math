@@ -16,9 +16,9 @@
 
 01：第1步，为对象的部分编号。
 
-02：第2步，所能进行的对称操作有哪些。
+02：第2步，保持对象在相同位置的情况下，进行操作（旋转/翻转/...）
 
-03：
+03：第3步，列出所有的对称操作。
 
 下面我们拿一个长方形来举例，看看它有哪些对称操作。
 
@@ -251,7 +251,7 @@ Definition 6.9 (index). If $H < G$ then the index of $H$ in $G$, written $[G:H]$
 
 ​						
 
-​					$[G:H] = \frac{\left |  H \right |}{\left |  G \right |}$
+$[G:H] = \frac{\left |  G \right |}{\left |  H \right |}$
 
 ## Chapter 07: Products and quotients
 
