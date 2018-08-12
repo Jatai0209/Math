@@ -2,6 +2,14 @@
 
 《Visual_Group_Theory[Nathan_Carter]》这本书里面给出了很多群里的应用：比如化学，视觉艺术，舞蹈，数学。
 
+本书配套视屏：https://www.youtube.com/watch?v=UwTQdOop-nU&list=PLwV-9DG53NDxU337smpTwm6sef4x-SCLv。
+
+
+
+不过这个 小姐姐 讲的感觉很好【给需要入门科普的人看，没有深入内容，比如只有直积，没有半直积】:
+
+https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6
+
 
 
 **群的元素 可以为 数字，可以为矩阵，可以为对称操作，“群乘”运算为相继的两个对称操作。**
@@ -188,6 +196,8 @@ When a group $H$ is a subgroup of a group $G$, the standard way to write this is
 
 那些与子群对称的子群（但是不含有e）就叫做 cosets 陪集
 
+每一个子群都有 陪集，子群 与其 陪集 彼此不相交的 覆盖该群 的 凯勒图。
+
 Observation 6.3. Every subgroup has cosets, and they cover every node of the group's
 Cayley diagram.
 
@@ -225,7 +235,7 @@ $\left \langle f \right \rangle r^2= \left \{ e,f \right \} r^2= \left \{e \cdot
 
 ![](Cosets03.png)
 
-左陪集 和 右陪集 不是一直不相等的。有的时候也是可以相等的。
+左陪集 和 右陪集 不是一直不相等的。当一个子群的 左陪集 等于其 右陪集 时，这种 子群 我们 叫做 **正规子群 -normal  subgroups。**
 
 我们也可以用 乘法表 来计算 陪集：
 
@@ -259,7 +269,7 @@ $[G:H] = \frac{\left |  G \right |}{\left |  H \right |}$
 
 上一章讲了 如何把群拆开成 子群 和 陪集。
 
-这章从反方向讲，如何把一个群构建的更大。首先通过 积 的 方法。
+这章从反方向讲，如何把一个群构建成更大的群。首先通过 直积 的 方法。
 
 
 
@@ -286,7 +296,17 @@ $[G:H] = \frac{\left |  G \right |}{\left |  H \right |}$
 
 
 
+直积因子 相互独立。
+
+
+
+可以简单的 用 2个 因子 通过 直积 来 构建群。 
+
+
+
 #### 7.2 Semidirect products - 半直积
+
+除了 有 直积 的方法 来扩建 群，还有 半直积 和 knit product。
 
 
 
@@ -294,6 +314,80 @@ $[G:H] = \frac{\left |  G \right |}{\left |  H \right |}$
 (a) The two diagrams must have the same arrangement of nodes.
 (b) The diagrams may have their arrows arranged differently.
 (c) The algebraic relationships among group elements must be the same in both diagrams.
+
+
+
+![](SemidirectProducts01.png)
+
+上图中可以看到 半直积 和 直积 的区别， 直积 构建的话，蓝色线连接的2个凯勒图 是一模一样的。
+
+而 半直积 蓝色线 连接的 2个凯勒图 只是 元素个数相等，但是 红色线的走向却 不一样。
+
+
+
+#### 7.3  Normal subgroups and quotients - 正规子群 与 商运算
+
+将大阶群 解构 为 两个因子的 一种方式 叫做 取商 (taking a quotient)
+
+这个运算 不仅能找出 直积，也能找出 半直积。
+
+
+
+**群的积运算是将群 相乘起来，而群的商运算则是对群做 除法。**
+
+
+
+![](SemidirectProducts02.png)
+
+
+
+但有的时候进行商运算，会产生 无效的 凯莱图:
+
+
+
+![](SemidirectProducts03.png)
+
+
+
+图7.26 进行 商运算 以后 产生的 最下面的图 是无效的凯莱图，因为有歧义，比如顶上那个点，进行蓝色变换时 有3种可能，结果不是唯一的。
+
+
+
+那么什么决定了一个群或子群能否成功地商掉别的群？
+
+决定因素在于 这个子群是否是 正规的。既左陪集和右陪集 相等。
+
+
+
+#### 7.4 Normalizers - 正则化子
+
+
+
+
+
+#### 7.5 Conjugacy - 共轭
+
+
+
+
+
+
+
+## Chapter 08: The power of homomorphisms - 同态映射的力量
+
+![](Ch08Homomorphisms01.png)
+
+
+
+图8.2 展示了：一个从群$C_3$（一个元素是数字的群）对应到群$S_3$（其中的元素并非数字）的函数。我们称，这个函数将$C_3$中的元素映射（map）到$S_3$中的元素。
+
+
+
+
+
+
+
+
 
 
 
